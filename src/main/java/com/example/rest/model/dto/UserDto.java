@@ -8,6 +8,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 // É MEU PACKAGE OBJECT NO BEEHOME
+// UTILIZADO POIS O MEU MODEL TEM COMO OBJETIVO ESPECÍFICO DEFINIR MEU BANCO DE DADOS 
+
 @Data
 public class UserDto {
 

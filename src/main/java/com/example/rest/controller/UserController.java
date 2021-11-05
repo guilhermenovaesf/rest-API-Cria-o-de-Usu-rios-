@@ -40,6 +40,7 @@ public UserDto findById(@PathVariable(value="id")Long id) {
 public UserDto register(@RequestBody @Valid UserForm userForm) {
 	return userService.createUser(userForm);
 }
+
 @RequestMapping(value="/{id}",method=RequestMethod.PUT)
 public UserDto updateById(@RequestBody UserUpdateForm form,@PathVariable(value="id") Long id) {
 	return userService.updateById(form, id);
